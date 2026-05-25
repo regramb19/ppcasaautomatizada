@@ -1,0 +1,162 @@
+<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hogar Inteligente - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    
+    <style>
+      hader#
+            background-color: #D8BFD8;               padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .btn-nav {
+            padding: 10px 25px;
+            background-color: #efedff; 
+            color: #7b61ff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            border: 2px solid #dcd6ff;
+            transition: 0.3s;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.9em;
+        }
+
+        .btn-nav:hover {
+            background-color: #7b61ff;
+            color: white;
+        }
+
+        .btn-nav.active {
+            background-color: #7b61ff;
+            color: white;
+        }
+
+               body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #ffe4e1; 
+            padding-top: 100px; 
+        }
+
+        .main-container {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+            max-width: 900px;
+        }
+
+        h1 {
+            font-weight: 700;
+            color: #ff8da1;
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            letter-spacing: -1px;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 12px;
+            border-radius: 25px;
+            width: 240px;
+            border: 4px solid #ffb6c1; 
+            box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: #ff8da1;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .card-title {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: 700;
+            color: #ff8da1;
+            font-size: 1.2em;
+        }
+
+        .info-breve {
+            margin: 0;
+            padding: 0 10px 10px 10px;
+            font-size: 0.9em;
+            color: #777;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="btn-nav">PRESENTACIÓN</a>
+        <a href="inicio.html" class="btn-nav active">INICIO</a>
+        <a href="automatizada.html" class="btn-nav">CASA AUTOMATIZADA</a>
+        <a href="formulario.html" class="btn-nav">FORMULARIO</a>
+    </header>
+
+    <div class="main-container">
+        <h1>Casa Automatizada</h1>
+
+        <div class="image-gallery">
+            <div class="card">
+                <img src="primera.jpg" alt="primera">
+                <p class="card-title">Smart Control</p>
+                <p class="info-breve">Paneles centrales para gestionar todos tus dispositivos desde un solo lugar.</p>
+            </div>
+
+            <div class="card">
+                <img src="segunda.jpg" alt="segunda">
+                <p class="card-title">Luces Mágicas</p>
+                <p class="info-breve">Iluminación inteligente que cambia de color y se adapta a tu estado de ánimo.</p>
+            </div>
+
+            <div class="card">
+                <img src="tercera.jpg" alt="tercera">
+                <p class="card-title">Asistente Virtual</p>
+                <p class="info-breve">Controla tu hogar usando solo tu voz con dispositivos como Alexa o Google Home.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
